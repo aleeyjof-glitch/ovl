@@ -1,79 +1,37 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 
-/* NAVBAR */
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 15px 30px;
     background: #0a1f44;
     color: white;
 }
 
-.logo {
+.logo-link {
     display: flex;
     align-items: center;
-    gap: 10px;
+    text-decoration: none;
+    color: white;
 }
 
-.logo img {
+.logo-link img {
     width: 50px;
+    margin-right: 10px;
 }
 
 nav a {
     color: white;
-    margin-left: 20px;
+    margin-left: 15px;
     text-decoration: none;
 }
 
-/* HERO */
 .hero {
     text-align: center;
-    padding: 100px 20px;
+    padding: 100px;
     background: linear-gradient(to right, #1e3c72, #2a5298);
     color: white;
-}
-
-.hero button {
-    padding: 10px 20px;
-    border: none;
-    background: gold;
-    cursor: pointer;
-}
-
-/* SERVICES */
-.services {
-    padding: 50px;
-    text-align: center;
-}
-
-.card-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.card {
-    background: #f4f4f4;
-    padding: 30px;
-    width: 150px;
-    border-radius: 10px;
-}
-
-/* ABOUT & CONTACT */
-.about, .contact {
-    padding: 50px;
-    text-align: center;
-}
-
-/* FOOTER */
-footer {
-    background: #0a1f44;
-    color: white;
-    text-align: center;
-    padding: 15px;
 }
